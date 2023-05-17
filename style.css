@@ -1,0 +1,36 @@
+body {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(180deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+}
+.links>a{
+
+    text-decoration: none;
+}
+
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 5%;
+    margin-right: 10px;
+}
+
+.brand>h1 {
+
+    font-family: 'Roboto';
+    font-weight: 300;
+
+}
