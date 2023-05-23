@@ -8,34 +8,91 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="resources/css/style.css">
     <title>Zezin Elojob</title>
 </head>
 
 <body>
 
-    <header class="">
+    <header>
         <div class="brand">
-            <img class="logo" src="./images/logo-removebg-preview.png" alt="Logo Zezin Elojob">
+            <img class="logo" style="margin-right: 20px;" src="./resources/img/logo-removebg-preview.png"
+                alt="Logo Zezin Elojob">
             <h1>Elojob Zezin</h1>
         </div>
-        <div >
+        <div class="menu-items">
             <ul class="links">
                 <li>
-                    <a href="Home">Home</a>
+                    <a href="#Home">Home</a>
                 </li>
                 <li>
-                    <a href="Serviços">Serviços</a>
+                    <a href="#Servicos">Serviços</a>
                 </li>
                 <li>
-                    <a href="Contato">Contato</a>
+                    <a href="#Contato">Contato</a>
                 </li>
                 <li>
-                    <a href="Sobre">Sobre Nós</a>
+                    <a href="#Sobre">Sobre Nós</a>
                 </li>
             </ul>
         </div>
     </header>
+
+    <main>
+        <div id="Servicos" >
+            <div class="brand-text">
+                <h1>Elojob</h1>
+                <p>Zezin</p>
+            </div>
+            <h2 style="margin-bottom: 4%;">O melhor serviço de elojob da america latina</h2>
+
+            <h3 >Serviços:</h3>
+
+        </div>
+
+        <div>
+            <div class="card-container">
+                <div class="card">
+                    <h2>Elo Job</h2>
+                    <h3>É uma ótima escolha para quem quer agilidade no serviço, iremos jogar na sua conta até atingir a
+                        divisão solicitada, você pode customizar lane/campeões e muito mais!</h3>
+                    <button>Contratar</button>
+                </div>
+                <div class="card">
+                    <h2>Duo Boost</h2>
+                    <h3>Você quer o máximo de segurança para você e sua conta? Jogue duo com um Challenger e aprenda as
+                        melhores técnicas para subir de ELO!
+                    </h3>
+                    <button>Contratar</button>
+                </div>
+                <div class="card">
+                    <h2>MD10</h2>
+                    <h3>Nós iremos garantir 80% de vitórias na sua MD10, os melhores Boosters são selecionados para
+                        fazer esse tipo de serviço e garantir as vitórias!
+                    </h3>
+                    <button>Contratar</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="Contato" class="Contato">
+            <h2>Entre em contato</h2>
+            <p>Estamos sempre dispostos a responder quaisquer dúvidas referente aos nossos serviços, entre em contato
+                conosco.</p>
+                <form class="form" >
+                    <label for="">Informe seu nome *</label>
+                    <input type="text">
+                    <label for="">Informe seu E-mail *</label>
+                    <input type="text">
+                    <label for="">Informe seu numero *</label>
+                    <input type="tel">
+                    <label for="">Deixe sua mensagem *</label>
+                    <textarea name="mensagem" cols="30" rows="10"></textarea>
+                </form>
+        </div>
+
+    </main>
 
 </body>
 
