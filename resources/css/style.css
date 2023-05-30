@@ -96,7 +96,7 @@ a:hover {
 }
 
 #cartao1 {
-    background-image: url("/resources/img/katarina.jpg");
+    background-image: url("../img/katarina.jpg");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     background-size: cover;
@@ -106,7 +106,7 @@ a:hover {
 }
 
 #cartao2 {
-    background-image: url("/resources/img/yasuo.jpg");
+    background-image: url("../img/yasuo.jpg");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     background-size: cover;
@@ -115,7 +115,7 @@ a:hover {
 
 #cartao3 {
 
-    background-image: url("/resources/img/shaco.jpg");
+    background-image: url("../img/shaco.jpg");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     background-size: cover;
